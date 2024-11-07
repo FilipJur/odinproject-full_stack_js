@@ -10,3 +10,4 @@ function Book(title, author, year, pages, read) {
 }
 const AnimalFarm = new Book("AnimalFarm", "G. Orwell", 1945, 176, true)
 console.log(AnimalFarm.sayInfo())
+console.log("DDDD");

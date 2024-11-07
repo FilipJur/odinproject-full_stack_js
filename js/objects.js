@@ -5,7 +5,7 @@ function Book(title, author, year, pages, read) {
     this.pages = pages;
     this.read = read;
     this.sayInfo = function () {
-        return this
+        return this;
     }
 }
 const AnimalFarm = new Book("AnimalFarm", "G. Orwell", 1945, 176, true)
